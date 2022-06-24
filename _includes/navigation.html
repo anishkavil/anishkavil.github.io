@@ -2,7 +2,7 @@
 <ul class="nav nav-pills justify-content-end">
   {% for item in site.data.navigation %}
   <li class="nav-item">
-    <a {% if page.url == item.link %} class="nav-link active" {% elsif page.url != item.link %} class="nav-link" {% endif %} href="{{ item.link }}">  {{ item.name }}</a>
+    <a {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %} href="{{ item.link }}">  {{ item.name }}</a>
   </li>
   {% endfor %}
 </ul>
