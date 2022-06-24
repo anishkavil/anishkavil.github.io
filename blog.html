@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Blog
+author: Anish PK
+date: 21-Mar-2022
 ---
 <h1>Latest Posts</h1>
 
@@ -8,6 +10,7 @@ title: Blog
   {% for post in site.posts %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      Created On : {{ page.date | date_to_string }}
       {{ post.excerpt }}
     </li>
   {% endfor %}
