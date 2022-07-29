@@ -1,10 +1,9 @@
 ---
+title: Software Engineering Leader - Anish PK
 layout: default
-title: About Me
 ---
 
 # Anish PK
-
 
 
 > I am a Software Engineering Professional who has lead and managed software engineering teams working on Big Data frameworks and Technologies, E-commerce Products using Web Technologies and responsible for System Design, Solution Architecture and project management. Good knowledge of  programming language that includes Java, Python with Open-Source frameworks in the last 21 years.

@@ -1,0 +1,23 @@
+$primary                        :#8d021f; // burgundy
+blockquote {
+border: 0px solid #b3b3b3;
+border-left: 4px solid #b3b3b3;
+border-radius: 0px;
+background: #fafafa;
+font-size: 18px;
+margin: 10px;
+padding: 10px 20px;
+}
+
+blockquote p {
+margin: 0;
+line-height: 30px;
+padding-bottom: 20px;
+}
+
+blockquote .small {
+display: block;
+font-size: 80%;
+color: brown;
+text-align: right;
+}

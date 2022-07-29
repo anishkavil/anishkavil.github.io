@@ -1,0 +1,108 @@
+---
+layout: default
+title: Test
+---
+
+<h1>Latest Posts</h1>
+Check the changes
+
+Qualifications <BR>
+{% for qualification in site.data.resume.education %}
+    -----------------------
+    {{ qualification.degree }}
+    {{ qualification.university }}
+    {{ qualification.duration }}
+    -----------------------
+    <br>
+{% endfor%}
+Accomplishments <BR>
+{% for accomplishment in site.data.resume.accomplishments %}
+    -----------------------
+    {{ accomplishment.name }}
+    {{ accomplishment.organization }}
+    {{ accomplishment.description }}
+    -----------------------
+    <br>
+{% endfor%}
+
+Programming Languages <BR>
+{% for programminglanguage in site.data.resume.programminglanguages %}
+    -----------------------
+    {{ programminglanguage.name }}
+    {{ programminglanguage.proficiency }}
+    -----------------------
+    <br>
+{% endfor%}
+
+Tools & Framework <BR>
+{% for tool in site.data.resume.tools %}
+    -----------------------
+    {{ tool.name }}
+    {{ tool.proficiency }}
+    -----------------------
+    <br>
+{% endfor%}
+
+Leadership Skills <BR>
+{% for leadershipskill in site.data.resume.leadershipskills %}
+    -----------------------
+    {{ leadershipskill.name }}
+    {{ leadershipskill.proficiency }}
+    -----------------------
+    <br>
+{% endfor%}
+
+Work Experience <BR>
+{% for workexperience in site.data.resume.workexperiences %}
+    -----------------------
+    {{ workexperience.companyname }} <br>
+    {{ workexperience.designation }} <br>
+    {{ workexperience.duration }} <br>
+    {{ workexperience.roledescription }} <br>
+    {{ workexperience.accomplishments }} <br>
+    {% for tu in workexperience.technology %}
+      {{ tu }} ,
+    {% endfor %}
+    <br>
+    {% for lsu in workexperience.leadership %}
+      {{ lsu }} ,
+    {% endfor %}
+    <br>
+    -----------------------
+    <br>
+{% endfor%}
+<i class="resume-award-icon fa-solid fa-graduation-cap" data-fa-transform="shrink-2"></i><br>
+<i class="resume-award-icon fa-solid fa-trophy" data-fa-transform="shrink-2"></i><br>
+<i class="resume-award-icon fas fa-trophy" data-fa-transform="shrink-2"></i><br>
+
+{% for workexperience in site.data.resume.workexperiences %}
+    <article class="resume-timeline-item position-relative pb-5">
+      <div class="resume-timeline-item-header mb-2">
+        <div class="d-flex flex-column flex-md-row">
+            <h3 class="resume-position-title font-weight-bold mb-1">{{ workexperience.designation }}</h3>
+            <div class="resume-company-name ms-auto">{{ workexperience.companyname }}</div>
+        </div><!--//row-->
+        <div class="resume-position-time">{{ workexperience.duration }}</div>
+      </div><!--//resume-timeline-item-header-->
+      <div class="resume-timeline-item-desc">
+        <p>{{ workexperience.roledescription }}</p>
+        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
+        <!--<p>{{ workexperience.accomplishments }}</p>-->
+        <ul>
+        {% for accomplishment in workexperience.accomplishments %}
+          <li>{{ accomplishment }}</li>
+        {% endfor%}
+        </ul>
+
+        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+        <ul class="list-inline">
+          {% for tu in workexperience.technology %}
+            <li class="list-inline-item"><span class="badge bg-secondary badge-pill">{{ tu }}</span></li>
+          {% endfor %}
+          {% for lsu in workexperience.leadership %}
+            <li class="list-inline-item"><span class="badge bg-secondary badge-pill">{{ lsu }}</span></li>
+          {% endfor %}
+        </ul>
+      </div><!--//resume-timeline-item-desc-->
+    </article><!--//resume-timeline-item-->
+  {% endfor%}
