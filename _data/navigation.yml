@@ -1,2 +1,10 @@
-- name: About
+#- name: About
+#  link: /about.html
+#- name: Blog
+#  link: /blog.html
+- name: My Resume
+  link: /resume.html
+- name: About Me
   link: /about.html
+#- name: My Writings
+#  link: /blog.html

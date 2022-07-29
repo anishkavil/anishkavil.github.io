@@ -1,0 +1,232 @@
+title                   : 'Software Engineering Leader'
+pagetitle               : 'Big Data / Solution Architecture/ Systems Design/ Delivery /Platform Engineering - Anish PK'
+name                    : Anish PK
+email                   : anish.kavil@gmail.com
+mobile                  : '+91-9971877125'
+summary                 : 'A software engineering leader, passionate about leading and directing the team for technical solution
+                          design/architecture and managing the product delivery for e-commerce products on web technologies and
+                          platform engineering for enterprise scale. A technical coach with 22 years of experience in leading and coaching
+                          teams and projects across cross-functional domain on various web application engineering technologies using
+                          open-source framework, Big Data technology using Java and Python. An Engineering Manager who has
+                          successfully delivered multimillion dollar complex products and initiatives for business within stipulated time
+                          and budget frame. Adept at building a technically strong & highly motivated workforce, administering
+                          recruitment & performance management systems and building product roadmaps.'
+workexperiences         :
+  - companyname         : Barclays
+    designation         : Director - Head of Data Platforms
+    duration            : July 2021 – Present
+    roledescription     :
+    accomplishments     : ['Design and development of enterprise platform to train and deploy ML models with a focus to improve time to market.',
+                          'Drive enterprise strategy for data platforms in Data Ingestion, Data Analytics, Data Security and Data consumption for reporting and machine learning.',
+                          'Coach, guide and direct Directors, VP, Managers, and Engineers.',
+                          'Advocate engineering practices to improve product quality, security, and performance for various platforms.'
+                          ]
+    technology          :
+      - Python
+      - Java
+      - CI/CD
+      - AWS Cloud
+      - System Design
+      - Software Architecture
+      - Evangalize
+      - Product Feature Delivery
+
+    leadership          :
+      - Team management
+      - Team Organization
+      - Technical Coach
+      - Stakeholder Management
+
+  - companyname         : American Express
+    designation         : Engineering Director
+    duration            : Mar 2014 – June 2021
+    roledescription     :
+    accomplishments     : ['Built and designed a scalable Machine Learning Platform for Model Development Interface on Jupyter,Model Deployment Framework on Seldon and custom Model Ops framework.',
+                          'Built a Real Time Streaming Platform on Big Data Technologies for processing real time data ingestion',
+                          'Products for AXP using Apache Storm and Apache Kafka.Built and designed a Cross border Payment Platform and ezeClick Digital Payment for American Express',
+                          'Worked closely with senior leaders of Product Management to provide a consistent/successful interface between Engineering Development and Product Management',
+                          'Lead a global, multi-faceted Engineering team with responsibility for setting priorities, shaping culture, and strategic planning',
+                          'Build, develop and execute technology roadmap that drives modularity and re-usability across platforms',
+                          'Provide leadership, technical direction, and mentoring to strengthen the discipline, quality, reliability, and rigour of engineering work',
+                          'Applied industry-wide technical knowledge in development of novel approaches to systems engineering and design.'
+                          ]
+    technology          :
+      - Python
+      - Java
+      - CI/CD
+      - AWS Cloud
+      - System Design
+      - Software Architecture
+      - Evangalize
+      - Product Feature Delivery
+
+    leadership          :
+      - Team management
+      - Team Organization
+      - Technical Coach
+      - Stakeholder Management
+  - companyname         : Network 18 Media Ltd
+    designation         : Technology Head
+    duration            : Sep 2013 – March 2014
+    roledescription     :
+    accomplishments     : ['Build and Designed Content Management and Content Delivery Solution for IBNLive.com website and
+                            satellite sites like News18.com and relaunch of mobile sites Using Symphony Framework on PHP.'
+                          ]
+    technology          :
+      - PHP
+      - System Design
+      - Software Architecture
+      - Product Feature Delivery
+
+    leadership          :
+      - Team management
+      - Team Organization
+      - Technical Coach
+      - Stakeholder Management
+  - companyname         : OSDISC Technology Solutions LLP
+    designation         : Co-Founder
+    duration            : Oct 2012 – Sep 2013
+    roledescription     :
+    accomplishments     : ['Founded this company offering a SAAS product for basic school operations management.',
+                          'Designed and developed software architecture and framework for a manufacturing ERP for an eye care equipment manufacturing company'
+                          ]
+    technology          :
+      - Python
+      - System Design
+      - Software Architecture
+      - Product Feature Delivery
+    leadership          :
+      - Team management
+      - Team Organization
+      - Technical Coach
+      - Entrepreneurship
+  - companyname         : Firefly E Ventures Pvt Ltd
+    designation         : Technology Head
+    duration            : Aug 2010 – Oct 2012
+    roledescription     :
+    accomplishments     : ['Played a key role as Technology Head for group eCommerce portals for the company',
+                          'Built and designed the group portal for Students and content consumption. Designed and engineered the back-end system for Lead Management,
+                          Financial Management and Operations.'
+                          ]
+    technology          :
+      - Python
+      - System Design
+      - Software Architecture
+      - Product Feature Delivery
+    leadership          :
+      - Team management
+      - Team Organization
+      - Technical Coach
+      - Project Management
+  - companyname         : Cetana eSolutions
+    designation         : Engineering Head
+    duration            : Jan 2009 – Jul 2010
+    roledescription     :
+    accomplishments     : ['Played key role as Engineering Head for the Tech Team in India'
+                          ]
+    technology          :
+      - Java
+      - System Design
+      - Software Architecture
+      - Product Feature Delivery
+    leadership          :
+      - Team management
+      - Team Organization
+      - Technical Coach
+      - Project Management
+  - companyname         : Gulf Business Machines (GBM)
+    designation         : Solution Architect
+    duration            : May 2008-Nov 2008
+    roledescription     :
+    accomplishments     : ['Design and Implemented solution architecture for email archival for a Major International Airline’s company.'
+                          ]
+    technology          :
+      - System Design
+      - Software Architecture
+      - Product Feature Delivery
+    leadership          :
+      - Project Management
+      - Pre Sales
+  - companyname         : Birlasoft Limited
+    designation         : Lead Programmer
+    duration            : September 2002-Jan 2008
+    roledescription     :
+    accomplishments     : ['Programmer and Project Manager for the engineering teams'
+                          ]
+    technology          :
+      - Java
+      - Lotus Domino
+      - Shell Script
+    leadership          :
+      - Project Management
+      - Team management
+      - Pre Sales
+  - companyname         : Optimum Info Solutions
+    designation         : Software Programmer
+    duration            : April-2001-September 2002
+    roledescription     :
+    accomplishments     : ['Design and developed software solutions and end to end ownership of the product development from inception to deployment'
+                          ]
+    technology          :
+      - Lotus Domino
+      - Shell Script
+    leadership          :
+      - Project Management
+      - Team management
+  - companyname         : Cybernet Software Systems
+    designation         : Software Programmer
+    duration            : August 2000- April 2001
+    roledescription     :
+    accomplishments     : ['Part of the engineering team for www.auctionindia.com which was awarded Best E commerce solution in Lotus Beacon Conference 2000'
+                          ]
+    technology          :
+      - Lotus Domino
+      - Shell Script
+    leadership          :
+      - Project Management
+      - Team management
+education               :
+  - university          : Madurai Kamraj University
+    duration            : 2000-2003
+    degree              : "MCA - Master in Computer Application"
+  - university          : Delhi University
+    duration            : 1994-1997
+    degree              : B.Com(Hons)
+accomplishments         :
+  - name                : Chairman's Award
+    organization        : American Express
+    description         : Awareded for Machine Learning Platform in 2017 at American Express
+  - name                : Employee of the Year
+    organization        : Birlasoft
+    description         : Awarded for Team growth and Technical Project Management and Account acquisition and Delivery in 2005 at Birlasoft
+  - name                : Best E commerce solution
+    organization        : Cybernet Software Systems
+    description         : Awarded for Best E Commerce project built for B2B Solution at Lotus Beacon Conference 2000
+programminglanguages     :
+  - name                : Python
+    proficiency         : 'width:95%'
+  - name                : Java
+    proficiency         : 'width:90%'
+tools                   :
+  - name                : Django
+    proficiency         : 'width:95%'
+  - name                : Spring
+    proficiency         : 'width:90%'
+  - name                : Docker
+    proficiency         : 'width:85%'
+  - name                : Kubernetes
+    proficiency         : 'width:25%'
+  - name                : Djenkins
+    proficiency         : 'width:95%'
+  - name                : Posix shell
+    proficiency         : 'width:95%'
+leadershipskills        :
+  - name                : Team Management
+    proficiency         : 'width:95%'
+  - name                : Team Organization
+    proficiency         : 'width:90%'
+  - name                : People Management
+    proficiency         : 'width:90%'
+checkthis               : ['Acco1',
+                          'Accom2',
+                          'Accom3']

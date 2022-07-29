@@ -1,13 +1,14 @@
 # Where things are
 source              : .
 destination         : ./_site
-collections_dir     : .
 plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
 sass:
-  sass_dir: _sass
+  sass_dir          : css
+#  sass_dir: _sass
+#collections_dir     : . This was removed on 28th July as the posts were not generated otherwise. 
 collections:
   posts:
     output          : true
@@ -18,12 +19,12 @@ include             : [".htaccess"]
 exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 keep_files          : [".git", ".svn"]
 encoding            : "utf-8"
-markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
+#markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
 strict_front_matter : false
 
 # Filtering Content
 show_drafts         : null
-limit_posts         : 0
+limit_posts         : 10
 future              : false
 unpublished         : false
 
@@ -69,6 +70,7 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     :
+  parse_block_html  : true
 
 #Let’s say that you want to add a default layout to all pages and posts in your site. You would add this to your _config.yml file:
 #defaults:

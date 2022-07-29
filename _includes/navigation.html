@@ -1,8 +1,15 @@
 
-<ul class="nav nav-pills justify-content-end">
-  {% for item in site.data.navigation %}
-  <li class="nav-item">
-    <a {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %} href="{{ item.link }}">  {{ item.name }}</a>
-  </li>
-  {% endfor %}
-</ul>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      {% for item in site.data.navigation %}
+        <li class="nav-item">
+          <a {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %} href="{{ item.link }}">  {{ item.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
