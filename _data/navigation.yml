@@ -3,8 +3,8 @@
 #- name: Blog
 #  link: /blog.html
 - name: My Resume
-  link: /resume.html
+  link: /         # This is because in resume.html i have given the permalink variable as /
 - name: About Me
-  link: /about.html
-#- name: My Writings
+  link: /about
+# name: My Writings
 #  link: /blog.html

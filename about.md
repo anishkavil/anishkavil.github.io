@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Me
+permalink: about
 ---
 <div class="text-center">
   <img src="assets/images/profile.png" width="200" height="200" class="rounded mx-auto d-block img-thumbnail" alt="myPhoto">
