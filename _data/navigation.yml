@@ -1,10 +1,10 @@
 #- name: About
 #  link: /about.html
-#- name: Blog
-#  link: /blog.html
 - name: My Resume
   link: /         # This is because in resume.html i have given the permalink variable as /
 - name: About Me
   link: /about
+- name: Blog
+  link: /blog.html
 # name: My Writings
 #  link: /blog.html
