@@ -1,7 +1,11 @@
 ---
 layout: default
+title: Posts
 ---
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-
-{{ content }}
+<section class="resume-section summary-section mb-5">
+  <div class="resume-section-content">
+    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3"> {{page.title}}</h2>
+    <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+    <p class="mb-0">{{ content }} </p>
+  </div>
+</section>
