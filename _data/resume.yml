@@ -25,17 +25,16 @@ workexperiences         :
       - Python
       - Java
       - CI/CD
-      - AWS Cloud
-      - System Design
-      - Software Architecture
-      - Evangalize
-      - Product Feature Delivery
+      - Big Data & Machine Learning Engineering
+      - Platform Engineering
+      - System Design & Architecture
+      - Evangalize & Product Feature Delivery
 
     leadership          :
-      - Team management
-      - Team Organization
-      - Technical Coach
+      - Team management & Organization
+      - Change Management
       - Stakeholder Management
+      - Operational Excellence & Process Reengineering
 
   - companyname         : American Express
     designation         : Engineering Director
@@ -54,18 +53,17 @@ workexperiences         :
       - Python
       - Java
       - CI/CD
-      - AWS Cloud
-      - System Design
-      - Software Architecture
-      - Evangalize
-      - Product Feature Delivery
+      - Big Data & Machine Learning Engineering
+      - Platform Engineering
+      - System Design & Architecture
+      - Evangalize & Product Feature Delivery
 
     leadership          :
-      - Team management
-      - Team Organization
-      - Technical Coach
+      - Team management & Organization
+      - Change Management
       - Stakeholder Management
-  - companyname         : Network 18 Media Ltd
+      - Operational Excellence & Process Reengineering
+  - companyname         : Network 18
     designation         : Technology Head
     duration            : Sep 2013 – March 2014
     roledescription     :
@@ -74,16 +72,15 @@ workexperiences         :
                           ]
     technology          :
       - PHP
-      - System Design
-      - Software Architecture
+      - System Design & Architecture
       - Product Feature Delivery
 
     leadership          :
-      - Team management
-      - Team Organization
-      - Technical Coach
+      - Team management & Organization
+      - Change Management
       - Stakeholder Management
-  - companyname         : OSDISC Technology Solutions LLP
+      - Operational Excellence & Process Reengineering
+  - companyname         : OSDISC Technology Solutions
     designation         : Co-Founder
     duration            : Oct 2012 – Sep 2013
     roledescription     :
@@ -92,15 +89,14 @@ workexperiences         :
                           ]
     technology          :
       - Python
-      - System Design
-      - Software Architecture
+      - Django
+      - Spring
+      - System Design & Architecture
       - Product Feature Delivery
     leadership          :
-      - Team management
-      - Team Organization
-      - Technical Coach
+      - Team management & Organization
       - Entrepreneurship
-  - companyname         : Firefly E Ventures Pvt Ltd
+  - companyname         : Firefly E Ventures
     designation         : Technology Head
     duration            : Aug 2010 – Oct 2012
     roledescription     :
@@ -110,13 +106,14 @@ workexperiences         :
                           ]
     technology          :
       - Python
-      - System Design
-      - Software Architecture
+      - Django
+      - System Design & Architecture
       - Product Feature Delivery
     leadership          :
-      - Team management
-      - Team Organization
-      - Technical Coach
+      - Team management & Organization
+      - Change Management
+      - Stakeholder Management
+      - Operational Excellence & Process Reengineering
       - Project Management
   - companyname         : Cetana eSolutions
     designation         : Engineering Head
@@ -126,13 +123,12 @@ workexperiences         :
                           ]
     technology          :
       - Java
-      - System Design
-      - Software Architecture
+      - System Design & Architecture
       - Product Feature Delivery
     leadership          :
-      - Team management
-      - Team Organization
-      - Technical Coach
+      - Team management & Organization
+      - Stakeholder Management
+      - Operational Excellence & Process Reengineering
       - Project Management
   - companyname         : Gulf Business Machines (GBM)
     designation         : Solution Architect
@@ -141,13 +137,12 @@ workexperiences         :
     accomplishments     : ['Design and Implemented solution architecture for email archival for a Major International Airline’s company.'
                           ]
     technology          :
-      - System Design
-      - Software Architecture
+      - System Design & Architecture
       - Product Feature Delivery
     leadership          :
       - Project Management
       - Pre Sales
-  - companyname         : Birlasoft Limited
+  - companyname         : Birlasoft
     designation         : Lead Programmer
     duration            : September 2002-Jan 2008
     roledescription     :
@@ -195,18 +190,18 @@ education               :
 accomplishments         :
   - name                : Chairman's Award
     organization        : American Express
-    description         : Awareded for Machine Learning Platform in 2017 at American Express
+    description         : Awarded for developing and evangelizing Machine Learning Platform in 2017 at American Express
   - name                : Employee of the Year
     organization        : Birlasoft
-    description         : Awarded for Team growth and Technical Project Management and Account acquisition and Delivery in 2005 at Birlasoft
+    description         : Awarded for Team growth and Technical Project Management and Account acquisition and project delivery in 2005 at Birlasoft
   - name                : Best E commerce solution
     organization        : Cybernet Software Systems
-    description         : Awarded for Best E Commerce project built for B2B Solution at Lotus Beacon Conference 2000
+    description         : Awarded for Best E Commerce project developed on web for B2B Solution at Lotus Beacon Conference 2000
 programminglanguages     :
   - name                : Python
-    proficiency         : 'width:95%'
-  - name                : Java
     proficiency         : 'width:90%'
+  - name                : Java
+    proficiency         : 'width:60%'
 tools                   :
   - name                : Django
     proficiency         : 'width:95%'
@@ -214,19 +209,21 @@ tools                   :
     proficiency         : 'width:90%'
   - name                : Docker
     proficiency         : 'width:85%'
-  - name                : Kubernetes
-    proficiency         : 'width:25%'
-  - name                : Djenkins
-    proficiency         : 'width:95%'
-  - name                : Posix shell
+  - name                : 'Automation/CI/CD/Configuration Management'
     proficiency         : 'width:95%'
 leadershipskills        :
-  - name                : Team Management
+  - name                : Team management & Organization
     proficiency         : 'width:95%'
-  - name                : Team Organization
+  - name                : Change Management
     proficiency         : 'width:90%'
   - name                : People Management
     proficiency         : 'width:90%'
+  - name                : Stakeholder Management
+    proficiency         : 'width:90%'
+  - name                : Operational Excellence
+    proficiency         : 'width:75%'
+  - name                : Process Reengineering
+    proficiency         : 'width:75%'
 checkthis               : ['Acco1',
                           'Accom2',
                           'Accom3']
