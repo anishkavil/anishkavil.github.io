@@ -68,35 +68,41 @@ bundler: failed to load command: jekyll (/usr/local/lib/ruby/gems/3.1.0/bin/jeky
   1. Create a Directory to host all the files created
   2. Switch to that directory
   3. Create a new Gem file
-	   ``` shell
-	   $ bundle init
-	   ```
-  4. The above step would create a Gemfile in your directory
-  5. Edit the Gemfile and add jekyll as dependency to do that add in the Gemfile.
-    ```shell
-    $ gem jekyll
-    ```
-  6. Add a sample HTML file in your directory
-  7. To build Jekyll site
-    ```shell
-     $ jekyll build
-     ```
-  8. To start the server for your site
-    ```shell
-    $ bundle exec jekyll serve
-    ```
-  9. If everything allright your should get this
-    ```shell
-    $ bundle exec jekyll serve
-    Configuration file: /Volumes/TranscendSD/projects/anishkavil.github.io/_config.yml
-    To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
-           Source: .
-      Destination: ./_site
-      Incremental build: disabled. Enable with --incremental
-      Generating...
-                   done in 7.939 seconds.
-      Auto-regeneration: enabled for '.'
-      Server address: http://127.0.0.1:4000/
-      Server running... press ctrl-c to stop.
 
-    ```
+  ``` shell
+  $ bundle init
+  ```
+
+4. The above step would create a Gemfile in your directory
+5. Edit the Gemfile and add jekyll as dependency to do that add in the Gemfile.
+
+  ```shell
+  $ gem jekyll
+  ```
+6. Add a sample HTML file in your directory
+7. To build Jekyll site
+
+  ```shell
+   $ jekyll build
+   ```
+8. To start the server for your site
+
+  ```shell
+  $ bundle exec jekyll serve
+  ```
+9. If everything allright your should get this
+
+  ```shell
+  $ bundle exec jekyll serve
+  Configuration file: /Volumes/TranscendSD/projects/anishkavil.github.io/_config.yml
+  To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+         Source: .
+    Destination: ./_site
+    Incremental build: disabled. Enable with --incremental
+    Generating...
+                 done in 7.939 seconds.
+    Auto-regeneration: enabled for '.'
+    Server address: http://127.0.0.1:4000/
+    Server running... press ctrl-c to stop.
+
+  ```
