@@ -4,8 +4,8 @@ author: Anish PK
 description: High Level Workings of Jupyter Hub, Jupyter Lab and Jupyter Notebook Server
 ---
 
-# High Level Workings of Jupyter Hub, Jupyter Lab and Jupyter Notebook Server .
-
+## High Level Workings of Jupyter Hub, Jupyter Lab and Jupyter Notebook Server .
+<br>
 ### JupyterHub
 
 [JupyterHub](https://github.com/jupyterhub/jupyterhub) is the best way to serve [Jupyter notebook](https://jupyter-notebook.readthedocs.io/en/latest/) for multiple users. It can be used in a classes of students, a corporate data science group or scientific research group. It is a multi-user Hub that spawns, manages, and proxies multiple instances of the single-user [Jupyter notebook](https://jupyter-notebook.readthedocs.io/en/latest/) server.
@@ -26,13 +26,13 @@ Note: Unlike anyother reverse proxy this node-http-proxy has the ability to dyna
 
 
 <img class="img-fluid" src='/assets/images/posts/jupyter/jhub-parts.png' alt="">
-
+<br>
 ### Jupyter Lab
-
+<br>
 Its a typescript and python based application which has many inbuilt features as npm packages.  You can extend the jupyter lab and have custom extensions or use one of the already available extensions.
-
+<br>
 ### Jupyter NotebookServer ( Single User Notebook Server )
-
+<br>
 **A web application**: a browser-based tool for interactive authoring of documents which combine explanatory text, mathematics, computations and their rich media output.
 
 <img src="/assets/images/posts/jupyter/jupyter-interactive.png">
@@ -48,9 +48,9 @@ Its a typescript and python based application which has many inbuilt features as
 
 - This notebook file contains the code, output and markdown notes.
 
-
+<br>
 ### How the Subsystems Interact
-
+<br>
 Users access JupyterHub through a web browser, by going to the IP address or the domain name of the server.
 
 The basic principles of operation are:
@@ -65,11 +65,11 @@ The basic principles of operation are:
 
 
 The proxy is the only process that listens on a public interface. The Hub sits behind the proxy at `/hub`. Single-user servers sit behind the proxy at `/user/[username]`.
-
+<br>
 #### References :
 
-<sub>https://jupyterhub.readthedocs.io/en/stable/</sub>
-<sub>https://jupyterhub.readthedocs.io/en/stable/reference/technical-overview.html</sub>
-<sub>https://jupyterhub.readthedocs.io/en/stable/</sub>
-<sub>https://www.tornadoweb.org/en/stable/</sub>
-<sub>https://jupyterlab.readthedocs.io/en/stable/user/interface.html</sub>
+<sub>https://jupyterhub.readthedocs.io/en/stable/</sub><br>
+<sub>https://jupyterhub.readthedocs.io/en/stable/reference/technical-overview.html</sub><br>
+<sub>https://jupyterhub.readthedocs.io/en/stable/</sub><br>
+<sub>https://www.tornadoweb.org/en/stable/</sub><br>
+<sub>https://jupyterlab.readthedocs.io/en/stable/user/interface.html</sub><br>
