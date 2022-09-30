@@ -1,10 +1,8 @@
 ---
 layout: post
 author: Anish PK
-description: A Mind map on what Jekyll framework is and this will act as a quick reference guide for developing static website on Jekyll. 
+description: Few Details about Jekyll framework is and this will act as a quick reference guide for developing static website on Jekyll. 
 ---
-
-# A Map About Jekyll.
 
 This map below shows the capabilities of what Jekyll as a framework has to offer.
 
