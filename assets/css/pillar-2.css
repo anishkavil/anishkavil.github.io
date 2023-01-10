@@ -10620,7 +10620,8 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header .picture {
-  width: 208px;
+  width: 175px;
+  height: 219px;
 }
 
 .resume-header .name {
@@ -10781,7 +10782,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
     height: auto;
   }
   .resume-header .picture {
-    width: 120px;
+    width: 160px;
     border-radius: 4px;
   }
 }
